@@ -1,0 +1,33 @@
+$japanRed: #c70025;
+
+.Header {
+  height: 65px;
+
+  nav {
+    color: $japanRed;
+    background-color: #fff;
+
+    a {
+      color: $japanRed;
+    }
+
+    .side-nav li > a > i.material-icons {
+      color: #fff;
+    }
+
+    ul a {
+      color: #fff;
+      background-color: $japanRed;
+
+      &:hover {
+        background-color: lighten($japanRed, 3);
+      }
+    }
+  }
+
+  .brand-logo {
+    font-family: "Nanum Brush Script", cursive;
+    color: $japanRed;
+    padding-left: 10px;
+  }
+}

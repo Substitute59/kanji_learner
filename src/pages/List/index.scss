@@ -1,0 +1,36 @@
+$japanRed: #c70025;
+
+.List {
+  text-align: center;
+
+  .List-title {
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 30px;
+  }
+
+  .List-button {
+    width: 100%;
+    background-color: #000;
+  }
+
+  .List-button--active {
+    font-weight: 700;
+    background-color: $japanRed;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .List {
+    .List-title {
+      font-size: 40px;
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .List {
+    .List-title {
+      font-size: 50px;
+    }
+  }
+}

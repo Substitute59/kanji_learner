@@ -1,0 +1,47 @@
+$japanRed: #c70025;
+
+.Home {
+  text-align: center;
+
+  .Home-title {
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 30px;
+  }
+
+  .Home-intro {
+    font-size: 12px;
+  }
+
+  .Home-col {
+    padding: 10px 0;
+  }
+
+  .Home-button {
+    width: 100%;
+    background-color: $japanRed;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Home {
+    .Home-title {
+      font-size: 40px;
+    }
+
+    .Home-intro {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .Home {
+    .Home-title {
+      font-size: 50px;
+    }
+
+    .Home-intro {
+      font-size: 16px;
+    }
+  }
+}

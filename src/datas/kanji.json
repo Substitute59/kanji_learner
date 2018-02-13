@@ -1,0 +1,36 @@
+[
+  {
+    "index": 1,
+    "character": "日",
+    "meaning": ["Japon", "compteur de jours", "jour", "soleil"],
+    "strokes": 4,
+    "onyomi": {
+      "romaji": ["jitsu", "nichi"],
+      "katakana": ["ジツ", "ニチ"]
+    },
+    "kunyomi": {
+      "romaji": ["hi", "-bi", "-ka"],
+      "hiragana": ["ひ", "-び", "-か"]
+    },
+    "image": "k0001.svg",
+    "grade": 2,
+    "jlpt": 1
+  },
+  {
+    "index": 2,
+    "character": "月",
+    "meaning": ["mois", "lune"],
+    "strokes": 4,
+    "onyomi": {
+      "romaji": ["getsu", "gatsu"],
+      "katakana": ["ゲツ", "ガツ"]
+    },
+    "kunyomi": {
+      "romaji": ["tsuki"],
+      "hiragana": ["つき"]
+    },
+    "image": "k0002.svg",
+    "grade": 1,
+    "jlpt": 2
+  }
+]
