@@ -1,3 +1,3 @@
-#Kanji Learner
+# Kanji Learner
 
 Apprendre ses kanjis
